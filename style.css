@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  .base{
+    float: left;
+    margin-bottom: 5px;
+    width: 603px;
+    height: 201px;
+    border: 1px solid black;
+  }
+  .ticket{
+    width: 603px;
+    height: 201px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  
+  }
+  .ticketOne{
+    width: 603px;
+    height: 201px;
+    border: 1px solid black;
+  }
+  .cell{
+    width: 67px;
+    height: 67px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+  }
+  .ad{
+    background-color: aqua;
+  }
+  .po{
+    background-color: rgb(238, 0, 0);
+  }
+ 
+  .barelBase{
+    margin-left: 50px;
+    float: left;
+    width: 800px;
+    height: 230px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .barel{
+    padding-top:10px ;
+    text-align: center;
+    margin:  2px;
+    border-radius:110% ;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid black;
+  }
+
+  .win{
+    background-color: rgb(241, 178, 178);
+  }
+
+ .bar{
+    width: 1500px;
+    height: 230px;
+} 
+.up{
+  position: absolute;
+  right: 500px;
+  width: 100px;
+  height: 50px;
+}
+.end{
+  display: none;
+  left: 400px;
+  top: 300px;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(151, 172, 172);
+}
+.do{
+  margin-top: 100px;
+ margin-left: 200px; 
+}
+.butEnd{
+  padding-left: 7px;
+  margin-left: 200px;
+  box-sizing: border-box;
+  padding-top:24px;
+  width: 100px;
+  height: 70px;
+  background-color: blue;
+  user-select: none;
+}
+.butEnd:hover{
+  cursor: pointer;
+  filter: brightness(70%)
+}
+.butEnd:active{
+  filter: brightness(120%)
+}
